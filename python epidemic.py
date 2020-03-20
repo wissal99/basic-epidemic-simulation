@@ -9,11 +9,11 @@ import pygame
 import sys
 
 
-PROBA_DEATH = 100  # the black plague was 100%. smallpox was ~30%-35%
-CONTAGION_RATE = 4.5  # This is the R0 factor. Number of people an individual will infect on average
+PROBA_DEATH = 3.5  # the black plague was 100%. smallpox was ~30%-35%
+CONTAGION_RATE = 2.5 # This is the R0 factor. Number of people an individual will infect on average
 
 PROBA_INFECT = CONTAGION_RATE * 10
-
+ 
 VACCINATION_RATE = 0
 SIMULATION_SPEED = 25   # time between days in milliseconds. 0: fastest.
                         # 500 means every day the simulation pauses for 500 ms
@@ -201,4 +201,4 @@ def main():
                             break
 
 
-main()
+main()  
